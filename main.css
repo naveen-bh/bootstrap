@@ -1,0 +1,37 @@
+/* {border: 1px solid black;} */
+html, body{margin: 0px; padding: 0px; }
+#document{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#section{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+#section aside{
+
+    flex-shrink: 0.2;
+}
+#section main{
+    width: 100%;
+    flex-shrink: 1;
+}
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#nav_sticky{
+    position: sticky;
+    top: 0px;
+    background-color: whitesmoke;
+    z-index: 10;
+}
+.height{
+    height: 75px;
+    overflow-y:hidden;
+    text-overflow: ellipsis;
+}
